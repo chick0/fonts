@@ -1,5 +1,4 @@
 from re import search
-from os.path import join
 
 def get_size(size: int) -> str:
     kb = 1024
@@ -37,6 +36,7 @@ def _remove_whitespace(css: str) -> str:
 def _remove_whitespace_static(css: str) -> str:
     css = css.replace(": ", ":")
     css = css.replace(" {", "{")
+    css = css.replace(";}", "}")
     css = css.replace(" (", "(")
     css = css.replace(") ", ")")
     css = css.replace(" !", "!")
@@ -45,7 +45,7 @@ def _remove_whitespace_static(css: str) -> str:
     return css
 
 
-def css_clean_up(file: str, css: str) -> int:
+def css_clean_up(file: str, css: str) -> None:
     def _css_write() -> None:
         with open(file.replace(".css", ".min.css"), mode="w", encoding="utf-8") as css_writer:
             css_writer.write(css)
