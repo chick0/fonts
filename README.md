@@ -7,19 +7,19 @@
 > 영어, 숫자, 기호
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/chick0/fonts@master/d2coding/d2coding.css");
+@import url("https://cdn.jsdelivr.net/gh/chick0/fonts@master/d2coding/d2coding.min.css");
 ```
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chick0/fonts@master/d2coding/d2coding.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chick0/fonts@master/d2coding/d2coding.min.css">
 ```
 
 > 한글
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/chick0/fonts@master/d2coding/d2coding.kr.css");
+@import url("https://cdn.jsdelivr.net/gh/chick0/fonts@master/d2coding/d2coding.kr.min.css");
 ```
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chick0/fonts@master/d2coding/d2coding.kr.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chick0/fonts@master/d2coding/d2coding.kr.min.css">
 ```
