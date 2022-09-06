@@ -4,8 +4,6 @@
 
 2. 해당 저장소에 있는 코드의 저작권과 폰트의 저작권은 별개입니다.
 
-------------
-
 # D2Coding
 
 > [SIL Open Font License, Version 1.1.](https://github.com/naver/d2codingfont/wiki/Open-Font-License)
